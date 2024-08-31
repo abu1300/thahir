@@ -1,0 +1,340 @@
+ #main{
+    /* width: 500px;
+    height: 500px;
+    background-color: aqua; */
+    margin-top: 150px;
+}
+.col-4{
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 200px;
+    width: 200px; */
+}
+.image{
+    margin-top: ;
+    margin-left: 40px;
+    border-radius: 100%;
+  transition: 0.5s;
+  height: 250px;
+  width: 250px;
+  background-color:;
+  border:1px solid red;
+   
+}
+.contacted:hover{
+     box-shadow: 4px 0px 15px 4px red  ;
+}
+.image:hover{
+    
+    box-shadow:4px 0px 15px 4px red  ;
+}
+body{
+    background-color:rgb(255, 247, 247);
+}
+#circle{
+    border: 10px solid #010101;
+    border-radius:100% ;
+    height: 230px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: movew;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes move{
+    0%{
+        border-color:  rgb(219, 41, 10);
+        box-shadow:  5px 0px 5px#ee4721;
+    }
+    25%{
+        border-color: rgb(121, 213, 238);
+        box-shadow:  5px 0px 5px rgb(121, 213, 238);
+    }
+    50%{
+        border-color: #fff;
+        box-shadow:  5px 0px 5px #fff;
+    }
+    100%{
+        border-color: rgb(219, 41, 10); 
+        box-shadow:  5px 0px 5px  rgb(219, 41, 10); 
+    }
+}
+#para{
+    text-shadow: 2px 2px 2px rgba(234, 218, 218, 0.858);
+    transition: 2s;
+    font-family: sans-serif;
+    font-style: italic;
+} 
+   #skill{
+    background-color:black;
+   }
+   
+   #col{
+    background-color: ;
+    border: 1px solid red;
+    border-radius: 5%;
+   transition: 0.5s;
+   }
+   #col:hover{
+    box-shadow:4px 0px 10px 4px red ;
+    background-color: red;
+   
+   }
+   .skill-para{
+    color: white;
+   }
+   .skill-hed{
+    position: relative;
+    left: 600px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #be1414;
+    
+   }
+   .skill-area{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid gray;
+    transition: 0.5s;
+    
+}
+.skill-area:hover{
+   box-shadow: 4px 0px 10px 4px red;
+}
+.skill{
+    position: relative;
+    margin-bottom: 30px;
+}
+.skill-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+}
+.skill-bar{
+    width: 100%;
+    background-color: aliceblue;
+    height: 20px;
+    z-index: -1;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px white;
+}
+.skill-fill{
+    height: 20px;
+    background:  #d10505;
+    box-shadow: 0px 14px 18px rgb(239, 42, 3);
+    display: flex;
+   justify-content: flex-end;
+   padding-right: 30px;
+   align-items: center;
+   border-radius: 100px;
+   overflow: hidden;
+}
+.skill-present{
+    font-size: 15px;
+}
+.html{
+    animation: html ;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count:infinite ;
+    width: 90%; 
+} 
+.css{
+    animation: css 2s;
+    width: 75%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count:infinite ;
+}
+.js{
+    animation: js 2s;
+    width: 70%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count:infinite ;
+}
+.bootstrap{
+    animation: bootstrap 2s;
+    width: 60%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-iteration-count:infinite ;
+}
+@keyframes html{
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 90%;
+    }
+}
+@keyframes css{
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 60%;
+    }
+}
+@keyframes js{
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 70%;
+    }
+}
+@keyframes bootstrap{
+    from{
+        width: 0%;
+
+    }
+    to{
+        width: 50%;
+    }
+}
+#name{
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+#email{
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+#message{
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 5%;
+}
+#con{
+    padding: 50px;
+    background-color:;
+    border: 1px solid darkgray;
+    border-radius: 10%;
+    padding-left: ;
+    transition: 0.5s;
+}
+#button{
+    position: relative;
+    left: 150px;
+}
+#name:hover{
+    box-shadow:4px 0px 10px 4px red;
+}
+#button:hover{
+    box-shadow:4px 0px 10px 4px red;
+}
+#con:hover{
+    box-shadow:4px 0px 10px 4px red;
+    background-color: red;
+}
+#message:hover{
+    box-shadow:4px 0px 10px 4px red;
+}
+#email:hover{
+    box-shadow:4px 0px 10px 4px red;
+}
+.img-html{
+   
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+    transition: 0.5s;
+    position: relative;
+    left: 100px;
+   
+}
+.location{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color: white;
+} 
+.img-html:hover{
+    box-shadow: 4px 0px 15px 0px #fff;
+   width: 45px;
+   height: 45px;
+} 
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+
+}
+#flex{
+    display:flex;
+    justify-content:;
+    align-items: center;
+}
+.text-white{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c{
+    position: relative;
+    left: 100px;
+}
+.project{
+    transition: 1s;
+}
+.project:hover{
+   border: 1px solid red;
+   box-shadow:4px 0px 10px 4px red;
+   transform: scale(1.1,1.1);
+}
+.mail{
+    position: relative;
+    left: 200px;
+}
+.li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-nav:hover{
+    opacity: 100%;
+    text-shadow:4px 0px 10px 4px rgb(234, 197, 197);
+   font-size:large;
+}
+.footer-nav{
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+.icons{
+   position:relative;
+   right: 100px;
+}
